@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.env/
+.venv/
+my_env/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Data
+# =========================
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# =========================
+# Large ML Files
+# =========================
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+
+# =========================
+# Experiment Outputs
+# =========================
+runs/
+wandb/
+mlruns/
+outputs/
+results/
+
+# =========================
+# TensorFlow
+# =========================
+.tensorboard/
